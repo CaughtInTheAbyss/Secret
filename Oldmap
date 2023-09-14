@@ -1,4 +1,5 @@
-   for i, v in pairs(workspace.Main.Waterfall:GetDescendants()) do
+if game.PlaceId == 2202352383 then
+for i, v in pairs(workspace.Main.Waterfall:GetDescendants()) do
         if v:IsA("Part") or v:IsA("Mesh") or v:IsA("BasePart") then
             if v.Color == Color3.fromRGB(15, 145, 230) or v.Transparency == 0.5 or v.Color == Color3.fromRGB(17, 17, 17) then
                 v.Color = Color3.fromRGB(15, 145, 230)
@@ -37,4 +38,5 @@
             v.Color = Color3.fromRGB(120, 0, 255)
         end
     end
+end
 end
