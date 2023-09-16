@@ -1,4 +1,4 @@
--- ESP has been removed due to it breaking the esp in Horizon
+-- ESP has been removed due to it breaking the esp in Horizon Revanced
 
 if game.PlaceId ~= 2202352383 then return end
 for i, v in pairs(game.CoreGui:GetChildren()) do
